@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/stylesheet.css">
+
+	<!-- jQuery library -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/weather.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+	<div class="row well vertical-center-row col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+		<h1 class="text-center">Local Weather Application</h1>
+		<div class="location-text">
+			<div id="celsiusFahr-btn" class="text-center"></div>
+		</div>
+		<div class="location-text text-center">
+			<div class="degreeCelsius col-sm-12">
+				<span id="degree"></span>
+			</div>
+
+			<div class="cityCountry col-sm-12">
+				<span id="city">Click the button to find your local temperature</span>
+			</div>
+		</div>
+		<div class="col-sm-12 buttons">
+			<div class="col-xs-6 text-left">
+				<a href="#" id="tweet" class="btn btn-primary button"><i class="fa fa-twitter"> </i> Tweet</a>
+			</div>
+			<div class="col-xs-6 text-right">
+				<button id="btnInit" class="btn btn-primary button">Find my location</button>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer text-center">Mady by <a href="https://nl.linkedin.com/in/gerbentimmerman" target="_blank">Gerben</a></footer>
+</body>
+</html>

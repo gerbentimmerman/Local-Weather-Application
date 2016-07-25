@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body {
+    background-color: #ff0609;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ff0609;
+}
+
+.well {
+    margin-top: 9%;
+    padding: 30px;
+    background-color: #fff;
+}
+
+#btnSwitch{
+    margin-bottom: 10px;
+}
+
+.location-text {
+    font-family:sans-serif;
+    padding: 20px;
+}
+
+.cityCountry {
+    margin-bottom: 10px;
+}
+
+.degreeCelsius {
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.button {
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    outline: none;
+    background-color: #ff0609;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+.button:hover, .button:active, .button:focus {
+    background-color: #ff4900;
+    opacity: 0.9;
+ }
+
+
+.footer {
+    color:#FFF;
+    margin-bottom:50px;
+}
+.footer a{
+    color:#00FF00;
+}
